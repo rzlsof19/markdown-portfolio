@@ -1,11 +1,16 @@
-## Your GitHub Learning Lab Repository for Communicating Using Markdown
+## Markdown Portfolio
 
-Welcome to **your** repository for your GitHub Learning Lab course. This repository will be used during the different activities that I will be guiding you through.
+A personal portfolio site built with [GitHub Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/), created as part of the GitHub Learning Lab course on communicating using Markdown.
 
-Oh! I haven't introduced myself...
+### Structure
 
-I'm the GitHub Learning Lab bot and I'm here to help guide you in your journey to learn and master the various topics covered in this course. I will be using Issue and Pull Request comments to communicate with you. In fact, I already added an issue for you to check out.
+- `index.md` — Main portfolio page that assembles content from includes
+- `_includes/` — Modular Markdown content sections:
+  - `01-name.md` — Introduction and header
+  - `02-image.md` — Featured image
+  - `03-links.md` — Useful links
+- `_config.yml` — Jekyll site configuration
 
-![issue tab](https://lab.github.com/public/images/issue_tab.png)
+### Viewing the Site
 
-I'll meet you over there, can't wait to get started!
+This site is automatically published via GitHub Pages. Visit the repository's GitHub Pages URL to see the live portfolio.
